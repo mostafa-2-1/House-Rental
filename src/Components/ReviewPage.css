@@ -1,0 +1,125 @@
+
+  .review-container {
+    font-family: Arial, sans-serif;
+    background-color: #f4f8fc;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+    width: 100%;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1, h2 {
+    text-align: center;
+    color: #2a2d6f;
+  }
+  
+  .stars {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #fbc02d;
+    margin-bottom: 20px;
+  }
+  
+  .rating-summary {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+  }
+  
+  .rating-bars {
+    margin-top: 10px;
+  }
+  
+  .bar {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .bar span {
+    width: 80px;
+    font-size: 0.9rem;
+  }
+  
+  .progress-bar {
+    flex-grow: 1;
+    height: 10px;
+    border-radius: 5px;
+    margin: 0 10px;
+    background-color: #ddd;
+    overflow: hidden;
+  }
+  
+  .percentage {
+    width: 50px;
+    text-align: right;
+    font-size: 0.9rem;
+  }
+  
+  .reviews {
+    margin-top: 20px;
+  }
+  
+  .review {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .review-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .review-header h3 {
+    font-size: 1.2rem;
+    color: #2a2d6f;
+  }
+  
+  .review-header span {
+    color: #fbc02d;
+    font-size: 1.2rem;
+  }
+  
+  .review p {
+    font-size: 0.95rem;
+    color: #555;
+  }
+
+  .top-buttons {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    width: calc(100% - 40px);
+  }
+  
+  .back-btn,
+  .add-review-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-review-btn {
+    background-color: #2196f3;
+  }
+  
+  .back-btn:hover,
+  .add-review-btn:hover {
+    opacity: 0.8;
+  }

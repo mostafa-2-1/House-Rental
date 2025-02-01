@@ -1,0 +1,192 @@
+.admin-container {
+    font-family: Arial, sans-serif;
+    background-color: #0078d4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #2a2d6f;
+    text-align: center;
+  }
+  
+  .admin-tabs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .admin-tabs button {
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 48%;
+    cursor: pointer;
+  }
+  
+  .admin-tabs button.active {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .search-bar {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .user-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .user-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    height: 50px; 
+  }
+  
+  .user-name {
+    font-weight: bold;
+  }
+  
+  .ban-dropdown {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+  }
+  
+  .temp-ban-modal {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin: 10px 0;
+    cursor: pointer;
+  }
+  
+  .modal-actions {
+    margin-top: 20px;
+  }
+  
+  .modal-actions button {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #2a2d6f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .modal-actions button:hover {
+    background-color: #1a1e52;
+  }
+  
+  .transactions-page {
+    padding: 20px;
+  }
+  
+  .transactions-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .transaction-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .transaction-id {
+    font-weight: bold;
+  }
+  
+  .transaction-amount {
+    color: green;
+  }
+.temp-ban-modal {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin: 10px 0;
+    cursor: pointer;
+  }
+  
+  .modal-actions {
+    margin-top: 20px;
+  }
+  
+  .modal-actions button {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #2a2d6f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .modal-actions button:hover {
+    background-color: #1a1e52;
+  }
+  .AdminLogout{
+    /* margin-top: ; */
+    padding: 20px;
+    border-radius: 7px;
+    background-color: red;
+    align-self: center;
+    margin: 150px auto; /* Centers horizontally */
+    display: block;
+  }
+ 

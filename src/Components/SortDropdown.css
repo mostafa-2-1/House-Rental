@@ -1,0 +1,29 @@
+
+.sort-dropdown-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+    float: right;
+  }
+  
+  .sort-label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .sort-dropdown {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sort-dropdown:focus {
+    border-color: #5cb85c;
+    outline: none;
+  }
+  

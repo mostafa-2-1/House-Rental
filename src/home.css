@@ -1,0 +1,45 @@
+
+body {
+  background-color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+.listing-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  padding: 20px;
+}
+
+.card-footer {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #ddd;
+}
+.home-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.listing-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .listing-controls {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .listing-controls > * {
+    margin-bottom: 10px;
+  }
+}
+

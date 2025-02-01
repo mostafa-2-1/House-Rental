@@ -1,0 +1,49 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f4ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .payment-container {
+    text-align: center;
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 500px;
+  }
+  
+  .payment-container h1 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  .payment-container button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin: 10px 0;
+    border: none;
+    border-radius: 25px;
+    background: #4a7aff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .payment-container button:hover {
+    background: #3a68d6;
+  }
+  
+  .payment-container button:last-child {
+    background: #ff4d4d;
+  }
+  
+  .payment-container button:last-child:hover {
+    background: #e63939;
+  }
+  
